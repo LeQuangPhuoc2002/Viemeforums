@@ -1,0 +1,38 @@
+/* css mobile */
+@media (max-width: 684px) {
+    .header{
+        padding: 0 8px 0 8px !important;
+    }
+    .header__center{
+        display: none;
+    }
+    .header__right .fa-magnifying-glass{
+        display: block;
+    }
+}
+
+@media (max-width: 684px) {
+    .main__left, .main__right, .main__center {
+        display: none;
+    }
+    .main, .main__center-mobile{
+        display: block;
+        width: 100%;
+    }
+    .main__center-mobile {
+        width: 100%;
+    }
+    /* .itemBox-post{
+        display: none;
+    }
+    .post-blog {
+        display: none;
+    }
+    .main__center-navbar {
+        display: none;
+    } */
+    .container-contents{
+        width: 100%;
+    }
+}
+
